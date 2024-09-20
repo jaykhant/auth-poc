@@ -1,0 +1,417 @@
+{
+  "cookies": {
+    "domain": "angry-taussig-42mr173egs.projects.oryapis.com",
+    "path": "/",
+    "same_site": "Lax"
+  },
+  "courier": {
+    "smtp": {
+      "from_name": "Jay Khant's Project via Ory"
+    },
+    "templates": {
+      "login_code": {
+        "valid": {
+          "email": {
+            "body": {}
+          },
+          "sms": {
+            "body": {}
+          }
+        }
+      },
+      "recovery": {
+        "invalid": {
+          "email": {
+            "body": {}
+          }
+        },
+        "valid": {
+          "email": {
+            "body": {}
+          }
+        }
+      },
+      "recovery_code": {
+        "invalid": {
+          "email": {
+            "body": {}
+          }
+        },
+        "valid": {
+          "email": {
+            "body": {}
+          }
+        }
+      },
+      "registration_code": {
+        "valid": {
+          "email": {
+            "body": {}
+          }
+        }
+      },
+      "verification": {
+        "invalid": {
+          "email": {
+            "body": {}
+          }
+        },
+        "valid": {
+          "email": {
+            "body": {}
+          }
+        }
+      },
+      "verification_code": {
+        "invalid": {
+          "email": {
+            "body": {}
+          }
+        },
+        "valid": {
+          "email": {
+            "body": {}
+          },
+          "sms": {
+            "body": {}
+          }
+        }
+      }
+    }
+  },
+  "feature_flags": {
+    "cacheable_sessions": false,
+    "cacheable_sessions_max_age": "2m30s",
+    "faster_session_extend": true,
+    "use_continue_with_transitions": true
+  },
+  "identity": {
+    "default_schema_id": "dab45d80341146eff537bb63a2a28c3474ea62ad89464d634f2be5a42ab741684685c71d42bf5439a3df6a52ec01ac58a44f62f8df401a0c9fa0aa6ae3fa0806",
+    "schemas": [
+      {
+        "id": "preset://email",
+        "url": "base64://ewogICIkaWQiOiAiaHR0cHM6Ly9zY2hlbWFzLm9yeS5zaC9wcmVzZXRzL2tyYXRvcy9pZGVudGl0eS5lbWFpbC5zY2hlbWEuanNvbiIsCiAgIiRzY2hlbWEiOiAiaHR0cDovL2pzb24tc2NoZW1hLm9yZy9kcmFmdC0wNy9zY2hlbWEjIiwKICAidGl0bGUiOiAiUGVyc29uIiwKICAidHlwZSI6ICJvYmplY3QiLAogICJwcm9wZXJ0aWVzIjogewogICAgInRyYWl0cyI6IHsKICAgICAgInR5cGUiOiAib2JqZWN0IiwKICAgICAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgImVtYWlsIjogewogICAgICAgICAgInR5cGUiOiAic3RyaW5nIiwKICAgICAgICAgICJmb3JtYXQiOiAiZW1haWwiLAogICAgICAgICAgInRpdGxlIjogIkUtTWFpbCIsCiAgICAgICAgICAib3J5LnNoL2tyYXRvcyI6IHsKICAgICAgICAgICAgImNyZWRlbnRpYWxzIjogewogICAgICAgICAgICAgICJwYXNzd29yZCI6IHsKICAgICAgICAgICAgICAgICJpZGVudGlmaWVyIjogdHJ1ZQogICAgICAgICAgICAgIH0sCiAgICAgICAgICAgICAgIndlYmF1dGhuIjogewogICAgICAgICAgICAgICAgImlkZW50aWZpZXIiOiB0cnVlCiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAidG90cCI6IHsKICAgICAgICAgICAgICAgICJhY2NvdW50X25hbWUiOiB0cnVlCiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAiY29kZSI6IHsKICAgICAgICAgICAgICAgICJpZGVudGlmaWVyIjogdHJ1ZSwKICAgICAgICAgICAgICAgICJ2aWEiOiAiZW1haWwiCiAgICAgICAgICAgICAgfSwKICAgICAgICAgICAgICAicGFzc2tleSI6IHsKICAgICAgICAgICAgICAgICJkaXNwbGF5X25hbWUiOiB0cnVlCiAgICAgICAgICAgICAgfQogICAgICAgICAgICB9LAogICAgICAgICAgICAicmVjb3ZlcnkiOiB7CiAgICAgICAgICAgICAgInZpYSI6ICJlbWFpbCIKICAgICAgICAgICAgfSwKICAgICAgICAgICAgInZlcmlmaWNhdGlvbiI6IHsKICAgICAgICAgICAgICAidmlhIjogImVtYWlsIgogICAgICAgICAgICB9CiAgICAgICAgICB9LAogICAgICAgICAgIm1heExlbmd0aCI6IDMyMAogICAgICAgIH0KICAgICAgfSwKICAgICAgInJlcXVpcmVkIjogWwogICAgICAgICJlbWFpbCIKICAgICAgXSwKICAgICAgImFkZGl0aW9uYWxQcm9wZXJ0aWVzIjogZmFsc2UKICAgIH0KICB9Cn0K"
+      },
+      {
+        "id": "preset://blank",
+        "url": "base64://ewogICIkaWQiOiAiaHR0cHM6Ly9zY2hlbWFzLm9yeS5zaC9wcmVzZXRzL2tyYXRvcy9pZGVudGl0eS5ibGFuay5zY2hlbWEuanNvbiIsCiAgIiRzY2hlbWEiOiAiaHR0cDovL2pzb24tc2NoZW1hLm9yZy9kcmFmdC0wNy9zY2hlbWEjIiwKICAidGl0bGUiOiAiIiwKICAidHlwZSI6ICJvYmplY3QiLAogICJwcm9wZXJ0aWVzIjogewogICAgInRyYWl0cyI6IHsKICAgICAgInR5cGUiOiAib2JqZWN0IiwKICAgICAgInByb3BlcnRpZXMiOiB7fSwKICAgICAgInJlcXVpcmVkIjogW10sCiAgICAgICJhZGRpdGlvbmFsUHJvcGVydGllcyI6IGZhbHNlCiAgICB9CiAgfQp9Cg=="
+      },
+      {
+        "id": "e557923b4a497fb5f3a1d38e027c57c385f80f69dd0474eb3ca5bbc3d4d144c0096e7e428ffc52d05a6359bbc0735742360c98b7e5f3167bd14135df19f14f3c",
+        "url": "https://storage.googleapis.com/bac-gcs-production/e557923b4a497fb5f3a1d38e027c57c385f80f69dd0474eb3ca5bbc3d4d144c0096e7e428ffc52d05a6359bbc0735742360c98b7e5f3167bd14135df19f14f3c.json"
+      },
+      {
+        "id": "56e04638aa1b1d6e3b2686617f638524192ad02f2b72d4be1419b3acf06eb5eda6f2f76b73b354e7ac25b38d1b9afbbfdfde5abbcc241145778435bb45261a18",
+        "url": "https://storage.googleapis.com/bac-gcs-production/56e04638aa1b1d6e3b2686617f638524192ad02f2b72d4be1419b3acf06eb5eda6f2f76b73b354e7ac25b38d1b9afbbfdfde5abbcc241145778435bb45261a18.json"
+      },
+      {
+        "id": "f6a7e20bff91e63d69da058dea6754bde3e52d06fb52457edaab087a4f26e399701b633c71faa925626946475cd0ae70d92841ddaba49185b84dff9076c4b961",
+        "url": "https://storage.googleapis.com/bac-gcs-production/f6a7e20bff91e63d69da058dea6754bde3e52d06fb52457edaab087a4f26e399701b633c71faa925626946475cd0ae70d92841ddaba49185b84dff9076c4b961.json"
+      },
+      {
+        "id": "dab45d80341146eff537bb63a2a28c3474ea62ad89464d634f2be5a42ab741684685c71d42bf5439a3df6a52ec01ac58a44f62f8df401a0c9fa0aa6ae3fa0806",
+        "url": "https://storage.googleapis.com/bac-gcs-production/dab45d80341146eff537bb63a2a28c3474ea62ad89464d634f2be5a42ab741684685c71d42bf5439a3df6a52ec01ac58a44f62f8df401a0c9fa0aa6ae3fa0806.json"
+      }
+    ]
+  },
+  "oauth2_provider": {
+    "override_return_to": false
+  },
+  "preview": {
+    "default_read_consistency_level": "strong"
+  },
+  "security": {
+    "account_enumeration": {
+      "mitigate": true
+    }
+  },
+  "selfservice": {
+    "allowed_return_urls": [
+      "https://angry-taussig-42mr173egs.projects.oryapis.com",
+      "/ui/logout",
+      "/ui/consent",
+      "/ui/welcome",
+      "/ui/sessions",
+      "http://localhost:8080",
+      "https://angry-taussig-42mr173egs.projects.oryapis.com/ui/error",
+      "https://angry-taussig-42mr173egs.projects.oryapis.com/ui/login",
+      "https://angry-taussig-42mr173egs.projects.oryapis.com/ui/recovery",
+      "https://angry-taussig-42mr173egs.projects.oryapis.com/ui/settings",
+      "https://angry-taussig-42mr173egs.projects.oryapis.com/ui/registration",
+      "https://angry-taussig-42mr173egs.projects.oryapis.com/ui/verification"
+    ],
+    "default_browser_return_url": "http://localhost:8080",
+    "flows": {
+      "error": {
+        "ui_url": "https://angry-taussig-42mr173egs.projects.oryapis.com/ui/error"
+      },
+      "login": {
+        "after": {
+          "code": {
+            "hooks": []
+          },
+          "hooks": [],
+          "lookup_secret": {
+            "hooks": []
+          },
+          "oidc": {
+            "hooks": []
+          },
+          "passkey": {
+            "hooks": []
+          },
+          "password": {
+            "hooks": []
+          },
+          "totp": {
+            "hooks": []
+          },
+          "webauthn": {
+            "hooks": []
+          }
+        },
+        "before": {
+          "hooks": []
+        },
+        "lifespan": "30m0s",
+        "style": "unified",
+        "ui_url": "https://angry-taussig-42mr173egs.projects.oryapis.com/ui/login"
+      },
+      "logout": {
+        "after": {}
+      },
+      "recovery": {
+        "after": {
+          "hooks": []
+        },
+        "before": {
+          "hooks": []
+        },
+        "enabled": true,
+        "lifespan": "30m0s",
+        "notify_unknown_recipients": false,
+        "ui_url": "https://angry-taussig-42mr173egs.projects.oryapis.com/ui/recovery",
+        "use": "code"
+      },
+      "registration": {
+        "after": {
+          "code": {
+            "hooks": [
+              {
+                "hook": "session"
+              }
+            ]
+          },
+          "hooks": [],
+          "oidc": {
+            "hooks": [
+              {
+                "hook": "session"
+              }
+            ]
+          },
+          "passkey": {
+            "hooks": [
+              {
+                "hook": "session"
+              }
+            ]
+          },
+          "password": {
+            "hooks": [
+              {
+                "hook": "session"
+              }
+            ]
+          },
+          "webauthn": {
+            "hooks": [
+              {
+                "hook": "session"
+              }
+            ]
+          }
+        },
+        "before": {
+          "hooks": []
+        },
+        "enable_legacy_one_step": true,
+        "enabled": true,
+        "lifespan": "30m0s",
+        "login_hints": false,
+        "ui_url": "https://angry-taussig-42mr173egs.projects.oryapis.com/ui/registration"
+      },
+      "settings": {
+        "after": {
+          "hooks": [],
+          "lookup_secret": {
+            "hooks": []
+          },
+          "oidc": {
+            "hooks": []
+          },
+          "passkey": {
+            "hooks": []
+          },
+          "password": {
+            "hooks": []
+          },
+          "profile": {
+            "hooks": []
+          },
+          "totp": {
+            "hooks": []
+          },
+          "webauthn": {
+            "hooks": []
+          }
+        },
+        "before": {
+          "hooks": []
+        },
+        "lifespan": "30m0s",
+        "privileged_session_max_age": "15m0s",
+        "required_aal": "highest_available",
+        "ui_url": "https://angry-taussig-42mr173egs.projects.oryapis.com/ui/settings"
+      },
+      "verification": {
+        "after": {
+          "hooks": []
+        },
+        "before": {
+          "hooks": []
+        },
+        "enabled": true,
+        "lifespan": "30m0s",
+        "notify_unknown_recipients": false,
+        "ui_url": "https://angry-taussig-42mr173egs.projects.oryapis.com/ui/verification",
+        "use": "code"
+      }
+    },
+    "methods": {
+      "b2b": {
+        "config": {
+          "organizations": []
+        }
+      },
+      "code": {
+        "config": {
+          "lifespan": "15m0s",
+          "missing_credential_fallback_enabled": true
+        },
+        "enabled": true,
+        "mfa_enabled": false,
+        "passwordless_enabled": false,
+        "passwordless_login_fallback_enabled": false
+      },
+      "link": {
+        "config": {
+          "base_url": "",
+          "lifespan": "15m0s"
+        },
+        "enabled": true
+      },
+      "lookup_secret": {
+        "enabled": false
+      },
+      "oidc": {
+        "config": {
+          "base_redirect_uri": "https://angry-taussig-42mr173egs.projects.oryapis.com",
+          "providers": [
+            {
+              "client_id": "157314720214-sijii03jb29cbpjfnqjid651n247h3ei.apps.googleusercontent.com",
+              "client_secret": "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",
+              "id": "google",
+              "label": "Google",
+              "mapper_url": "https://storage.googleapis.com/bac-gcs-production/538a58c644f137594c886f1f3794473f1c84416ece4de38f1f480583b7f1493dcba0eb0049dfaa1ee09341131b379f5614ca103fb6fc958ec691ab27e162f311.jsonnet",
+              "provider": "google",
+              "scope": [
+                "email",
+                "profile",
+                "openid"
+              ]
+            }
+          ]
+        },
+        "enabled": true
+      },
+      "passkey": {
+        "config": {
+          "rp": {
+            "display_name": "Jay Khant's Project",
+            "id": "angry-taussig-42mr173egs.projects.oryapis.com",
+            "origins": [
+              "https://angry-taussig-42mr173egs.projects.oryapis.com"
+            ]
+          }
+        },
+        "enabled": false
+      },
+      "password": {
+        "config": {
+          "haveibeenpwned_enabled": true,
+          "identifier_similarity_check_enabled": true,
+          "ignore_network_errors": true,
+          "max_breaches": 1,
+          "min_password_length": 8
+        },
+        "enabled": false
+      },
+      "profile": {
+        "enabled": true
+      },
+      "totp": {
+        "config": {
+          "issuer": "Jay Khant's Project"
+        },
+        "enabled": false
+      },
+      "webauthn": {
+        "config": {
+          "passwordless": false,
+          "rp": {
+            "display_name": "Jay Khant's Project",
+            "id": "angry-taussig-42mr173egs.projects.oryapis.com",
+            "origins": [
+              "https://angry-taussig-42mr173egs.projects.oryapis.com"
+            ]
+          }
+        },
+        "enabled": false
+      }
+    }
+  },
+  "serve": {
+    "admin": {
+      "base_url": "https://angry-taussig-42mr173egs.projects.oryapis.com/",
+      "request_log": {
+        "disable_for_health": true
+      }
+    },
+    "public": {
+      "base_url": "https://angry-taussig-42mr173egs.projects.oryapis.com/",
+      "cors": {
+        "enabled": false
+      },
+      "request_log": {
+        "disable_for_health": true
+      }
+    }
+  },
+  "session": {
+    "cookie": {
+      "domain": "angry-taussig-42mr173egs.projects.oryapis.com",
+      "name": "ory_session_angrytaussig42mr173egs",
+      "path": "/",
+      "persistent": true,
+      "same_site": "Lax"
+    },
+    "lifespan": "72h0m0s",
+    "whoami": {
+      "required_aal": "highest_available",
+      "tokenizer": {
+        "templates": {}
+      }
+    }
+  }
+}
