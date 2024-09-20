@@ -20,4 +20,11 @@ export class OryHelper {
     });
     return session.data;
   }
+
+  async logout(cookie: string): Promise<string> {
+    const { data: flow } = await this.ory.createBrowserLogoutFlow({
+      cookie,
+    });
+    return flow.logout_token;
+  }
 }
