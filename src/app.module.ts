@@ -8,6 +8,7 @@ import { RolesGuard } from './common/guard/roles.guard';
 import { ConfigModule } from '@nestjs/config';
 import configuration from './config/configuration';
 import { OryHelper } from './common/helper/OryHelper';
+import { AuthModule } from './auth/auth.module';
 
 @Module({
   imports: [
@@ -16,6 +17,7 @@ import { OryHelper } from './common/helper/OryHelper';
     }),
     AdminModule,
     UserModule,
+    AuthModule,
   ],
   controllers: [AppController],
   providers: [

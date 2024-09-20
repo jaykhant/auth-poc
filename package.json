@@ -18,7 +18,8 @@
     "test:watch": "jest --watch",
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
-    "test:e2e": "jest --config ./test/jest-e2e.json"
+    "test:e2e": "jest --config ./test/jest-e2e.json",
+    "ory:tunnel": "ory tunnel --dev --project c50d3a82-c381-4863-827f-606122d16691 \/ http://localhost:4000"
   },
   "dependencies": {
     "@nestjs/common": "^8.0.0",
