@@ -14,17 +14,10 @@ export class OryHelper {
     );
   }
 
-  async getSession(cookie: string): Promise<Session> {
+  async getSession(token: string): Promise<Session> {
     const session = await this.ory.toSession({
-      cookie,
+      xSessionToken: token,
     });
     return session.data;
-  }
-
-  async logout(cookie: string): Promise<string> {
-    const { data: flow } = await this.ory.createBrowserLogoutFlow({
-      cookie,
-    });
-    return flow.logout_token;
   }
 }
